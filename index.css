@@ -115,13 +115,13 @@ nav {
 .nav-cell-icn {
     width: 20px;
     height: 20px;
-    background-image: url(../assets/cell-icn.svg);
+    background-image: url(./assets/cell-icn.svg);
     background-repeat: no-repeat;
 }
 .logo {
     width: 20%;
     height: 100%;
-    background-image: url(../assets/logo.svg);
+    background-image: url(./assets/logo.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -164,17 +164,17 @@ a:hover, a:active {
     justify-content: space-around;
 }
 .ln {
-    background-image: url(../assets/ln-icn.svg);
+    background-image: url(./assets/ln-icn.svg);
     width: 20px;
     height: 20px;
 }
 .fb {
-    background-image: url(../assets/fb-icn.svg);
+    background-image: url(./assets/fb-icn.svg);
     width: 20px;
     height: 20px;
 }
 .insta {
-    background-image: url(../assets/insta-icn.svg);
+    background-image: url(./assets/insta-icn.svg);
     width: 20px;
     height: 20px;
 }
@@ -226,7 +226,7 @@ a:hover, a:active {
 .upload-icn {
     width: 20px;
     height: 20px;
-    background-image: url(../assets/upload-icn.svg);
+    background-image: url(./assets/upload-icn.svg);
 }
 .up-btn-link {
     width: 100%;
@@ -254,7 +254,7 @@ a:hover, a:active {
     border-radius: 50%;
     text-align: center;
     background-color: white;
-    background-image: url(../assets/down-arrow.svg);
+    background-image: url(./assets/down-arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0px 0px 20px -5px #A1CD3A;
@@ -286,15 +286,15 @@ a:hover, a:active {
     opacity: 0.3;
 }
 .img-1 {
-    background-image: url(../assets/header-img-1.png);
+    background-image: url(./assets/header-img-1.png);
     background-size: cover;
 }
 .img-2 {
-    background-image: url(../assets/header-img-2.png);
+    background-image: url(./assets/header-img-2.png);
     background-size: cover;
 }
 .img-3 {
-    background-image: url(../assets/header-img-3.png);
+    background-image: url(./assets/header-img-3.png);
     background-size: cover;
 }
 .c1--wrapper {
@@ -388,7 +388,7 @@ a:hover, a:active {
 /* why medibuzz */
 
 .wm {
-    background-image: url(../assets/Background\ Pattern.svg);
+    background-image: url(./assets/Background\ Pattern.svg);
     background-size: cover;
 }
 
@@ -416,21 +416,21 @@ a:hover, a:active {
 }
 .wmi-1 {
     background-color: white;
-    background-image: url(../assets/wmi-1.svg);
+    background-image: url(./assets/wmi-1.svg);
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: center;
 }
 .wmi-2 {
     background-color: white;
-    background-image: url(../assets/wmi-2.svg);
+    background-image: url(./assets/wmi-2.svg);
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: center;
 }
 .wmi-3 {
     background-color: white;
-    background-image: url(../assets/wmi-3.svg);
+    background-image: url(./assets/wmi-3.svg);
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: center;
@@ -478,7 +478,7 @@ a:hover, a:active {
     /* To Do */
     width: 90%;
     height: 90%;
-    background-image: url(../assets/About-img.svg);
+    background-image: url(./assets/About-img.svg);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -511,7 +511,7 @@ a:hover, a:active {
 .about-desc-title-text-style {
     color: #8FC513;
     display: inline-block;
-    background: url(../assets/bg-text-1.svg );
+    background: url(./assets/bg-text-1.svg );
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center; 
@@ -523,19 +523,19 @@ a:hover, a:active {
     border-radius: 50%;
 }
 .t-i1 {
-    background-image: url(../assets/testi1.png);
+    background-image: url(./assets/testi1.png);
     background-size: contain;
 }
 .t-i2 {
-    background-image: url(../assets/testi2.png);
+    background-image: url(./assets/testi2.png);
     background-size: contain;
 }
 .t-i3 {
-    background-image: url(../assets/testi3.png);
+    background-image: url(./assets/testi3.png);
     background-size: contain;
 }
 .t-i4 {
-    background-image: url(../assets/testi4.png);
+    background-image: url(./assets/testi4.png);
     background-size: contain;
 }
 .t-desc-name {
@@ -548,7 +548,7 @@ a:hover, a:active {
     padding: 20px 20px 30px;
 }
 .o-quote {
-    background-image: url(../assets/qt-up.svg);
+    background-image: url(./assets/qt-up.svg);
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
@@ -588,7 +588,7 @@ footer {
     align-items: flex-start;
 }
 .loc-icn {
-    background-image: url(../assets/loc-icn.svg);
+    background-image: url(./assets/loc-icn.svg);
     width: 12%;
     height: 10%;
     background-repeat: no-repeat;
@@ -605,21 +605,21 @@ footer {
     height: 100%;
 }
 .pipe-icn {
-    background-image: url(../assets/pipe.svg);
+    background-image: url(./assets/pipe.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 10%;
     width: 5%;
 }
 .mail-icn {
-    background-image: url(../assets/mail-icn.svg);
+    background-image: url(./assets/mail-icn.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 12%;
 }
 .cell-icn {
     width: 12%;
-    background-image: url(../assets/cell-icn.svg);
+    background-image: url(./assets/cell-icn.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
