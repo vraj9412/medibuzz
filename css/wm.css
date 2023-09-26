@@ -1,0 +1,84 @@
+/* why medibuzz */
+
+.wm {
+    background-image: url(../assets/Background\ Pattern.svg);
+    background-size: cover;
+}
+
+.content-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    width: 30%;
+    height: 60%;
+    margin: 2%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(28, 43, 94, 0.20);
+    overflow: hidden;
+    background-color: white;
+}
+
+.img-box {
+    height: 45%;
+    width: 100%;
+}
+.wmi-1 {
+    background-color: white;
+    background-image: url(../assets/wmi-1.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+}
+.wmi-2 {
+    background-color: white;
+    background-image: url(../assets/wmi-2.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+}
+.wmi-3 {
+    background-color: white;
+    background-image: url(../assets/wmi-3.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+}
+.desc-box {
+    height: 45%;
+    margin: 5%;
+}
+.desc-title {
+    color: #D33E27;
+    font-size: 1.2vdw;
+    font-weight: 100;
+    line-height: 120%; /* 27.6px */
+    letter-spacing: 0.69px;
+}
+.desc-content {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 140%; /* 21.6px */
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #666;
+}
+@media screen and (max-width: 480px) {
+    .content-container {
+        overflow: scroll;
+        justify-content: flex-start;
+    }
+    .content-box {
+        min-width: 90%;
+    }
+    .desc-title {
+        font-size: 12px;
+    }
+    .desc-content {
+        font-size: 10px;
+    }
+}

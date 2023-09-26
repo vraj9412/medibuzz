@@ -1,0 +1,39 @@
+/* Testimonial */
+.t-img {
+    width: 45%;
+    padding-bottom: 45%;
+    border-radius: 50%;
+}
+.t-i1 {
+    background-image: url(../assets/testi1.png);
+    background-size: contain;
+}
+.t-i2 {
+    background-image: url(../assets/testi2.png);
+    background-size: contain;
+}
+.t-i3 {
+    background-image: url(../assets/testi3.png);
+    background-size: contain;
+}
+.t-i4 {
+    background-image: url(../assets/testi4.png);
+    background-size: contain;
+}
+.t-desc-name {
+    margin-bottom: 0px;
+    font-size: 1dvw;
+    /* line-height: 140%; */
+    letter-spacing: 0.6px;
+}
+.desc-padding {
+    padding: 20px 20px 30px;
+}
+.o-quote {
+    background-image: url(../assets/qt-up.svg);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 5%;
+}

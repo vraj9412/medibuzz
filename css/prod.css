@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+/* common */
+::-webkit-scrollbar {
+    display: none;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green { 
+    background-color: green;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-8 {
+    flex:8
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-6 {
+    flex: 6;
+}
+.flex-3 {
+    flex: 3;
+}
+.flex-column {
+    flex-direction: column;
+}
+section {
+    width: 100vw;
+    height: 85vh;
+    padding: 5%;
+}
+
+.section-title {
+    width: 20%;
+    border-left: 3px solid rgba(28, 43, 94, 0.30);
+    border-radius: 117px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 0%, rgba(60, 80, 149, 0.16) 100%);
+}
+.section-title-text {
+    padding: 5px;
+    margin-left: 10px;
+}
+.section-content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../assets/whyMedibuzzsidebg.svg);
+    background-repeat: no-repeat ;
+    background-position: 110% 0%;
+    background-size: 20% 100%; */
+}
+@media screen and (max-width: 480px) {
+    section {
+        margin-top: 12%;
+        height: 70vh;
+    }
+    .section-title {
+        width: 40%;
+    }
+    .section-content-container {
+        overflow: scroll;
+        justify-content: flex-start;
+    }
+}
+/* Locate Us */
+.map-container {
+    width: 100%;
+    height: 80%;
+}
