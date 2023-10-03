@@ -81,7 +81,6 @@ section {
     }
     .section-content-container {
         overflow: scroll;
-        justify-content: flex-start;
     }
 }
 /* Locate Us */
@@ -367,8 +366,9 @@ a:hover, a:active {
         white-space: wrap;
     }
     .title-desc {
-        font-size: 16px;
+        font-size: 0.7rem;
         text-align: justify;
+        line-height: 140%;
     }
     nav {
         justify-content: space-around;
@@ -516,6 +516,35 @@ a:hover, a:active {
     background-repeat: no-repeat;
     background-position: center; 
 }
+.content-direction {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 480px) {
+    .content-direction {
+        flex-direction: column;
+    }
+    .indent {
+        text-indent: 4rem;
+    }
+    .about-img-container {
+        width: 80%;
+        height: 40%;
+    }
+    .about-content-container {
+        width: 100%;
+        height: 60%;
+    }
+    .about-desc-title {
+        font-size: 4dvw;
+    }
+    .about-desc-text {
+        font-size: 2.5dvw;
+    }
+}
 /* Testimonial */
 .t-img {
     width: 45%;
@@ -554,6 +583,11 @@ a:hover, a:active {
     background-repeat: no-repeat;
     width: 10%;
     height: 5%;
+}
+@media  screen and (max-width: 480px) {
+    .t-desc-name {
+        font-size: 4dvw;
+    }
 }
 /* Footer */ 
 footer {
