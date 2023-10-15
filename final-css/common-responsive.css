@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) {
+    section {
+        margin-top: 12%;
+        height: 70vh;
+    }
+    .section-title {
+        width: 40%;
+    }
+    .section-content-container {
+        overflow: scroll;
+        justify-content: flex-start;
+    }
+    #about > .section-content-container {
+        margin-top: 5%;
+    }
+    #about > .section-content-container, #about > .content-container {
+        justify-content: center;
+    }
+    .content-container, .t-content-container {
+        overflow: scroll;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .content-box, .t-content-box {
+        min-width: 80%;
+    }
+    .desc-title {
+        font-size: 12px;
+    }
+    .desc-content {
+        font-size: 10px;
+    }
+}

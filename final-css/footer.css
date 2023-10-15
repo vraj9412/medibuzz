@@ -1,0 +1,125 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.footer-container {
+    width: 90%;
+    height: 70%;
+}
+.footer-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-content .logo {
+    background-position: top;
+}
+.footer-content-container {
+    width: 30%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-links-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.ft-row {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    font-size: 12px;
+    margin-left: 30%;
+}
+.ft-row a {
+    height: 100%;
+    width: 100%;
+}
+.ft-row div {
+    height: 100%;
+}
+.loc-icn {
+    background-image: url(../assets/loc-icn.svg);
+    width: 5%;
+    height: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pipe-icn {
+    background-image: url(../assets/pipe.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    width: 5%;
+    margin: 0 4px 0 4px;
+}
+.mail-icn {
+    background-image: url(../assets/mail-icn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 5%;
+}
+.footer-cell-icn {
+    width: 5%;
+    background-image: url(../assets/cell-icn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ft-social-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+address {
+    font-style: normal;
+}
+hr {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 480px) {
+    .footer-content .logo {
+        display: none;
+    }
+    .footer-content {
+        justify-content: space-between;
+    }
+    .footer-content-container {
+        width: 40%;
+    }
+    .ft-row {
+        margin-left: 0;
+        font-size: 9px;
+        overflow: visible;
+    }
+    .mail-icn {
+        width: 20%;
+        background-size: contain;
+    }
+    .footer-cell-icn {
+        width: 20%;
+    }
+    .loc-icn {
+        width: 20%;
+    }
+    .pipe-icn {
+        width: 20%;
+        /* background-color: red; */
+    }
+    .ft-social-links {
+        width: 80%;
+    }
+    .footer-link {
+        line-height: 200%;
+    }
+}

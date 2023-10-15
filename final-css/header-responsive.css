@@ -1,0 +1,52 @@
+@media screen and (max-width: 480px) {
+    header {
+        height: 50vh;
+    }
+    .nav-links, .connect {
+        display: none;
+    }
+    .header-links-container {
+        width: 30%;
+    }
+    .logo-container {
+        width: 30%;
+    }
+    .logo {
+        background-size: 100%;
+    }
+    .header-text-container {
+        width: 50%;
+    }
+    .header-title-text {
+        font-size: 26px;
+        line-height: 150%; /* 33.6px */
+        letter-spacing: 0.84px;
+    }
+    .header-title-desc {
+        font-size: 10px;
+        text-align:justify;
+        line-height: 250%;
+        letter-spacing: 0.40px;
+    }
+    nav {
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .cell-container {
+        width: 100%;
+    }
+    .background {
+        background-size: 60% 100%;
+        background-position: right;
+    }
+    .upload-btn {
+        bottom: -80%;
+        width: 100%;
+        height: 35%;
+        font-size: 12px;
+    }
+    .scroll-container {
+        display: none;
+    }
+}

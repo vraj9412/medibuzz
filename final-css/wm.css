@@ -1,0 +1,62 @@
+
+.wm {
+    background-image: url(../assets/Background\ Pattern.svg);
+    background-size: cover;
+}
+.wmi-side-bg {
+    background-image: url(../assets/whyMedibuzzsidebg.svg);
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+    background-position: 170%;
+    padding: 5%;
+}
+.desc-box {
+    height: 45%;
+    margin: 5%;
+}
+.desc-title {
+    color: #D33E27;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%; /* 27.6px */
+    letter-spacing: 0.69px;
+}
+.desc-content {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 140%; /* 21.6px */
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #777;
+}
+.img-box {
+    height: 45%;
+    width: 100%;
+}
+.wmi-1 {
+    background-image: url(../assets/wmi-1.svg);
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+    background-position: center;
+}
+.wmi-2 {
+    background-image: url(../assets/wmi-2.svg);
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+    background-position: center;
+}
+.wmi-3 {
+    background-image: url(../assets/wmi-3.svg);
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+    background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+    .desc-title {
+        font-size: 12px;
+    }
+    .desc-content {
+        font-size: 10px;
+    }
+}

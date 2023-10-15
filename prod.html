@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prod Ready</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/prod.css" />
+    <title>Medibuzz index</title>
+<!--     <link rel="stylesheet" href="./css/prod.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/wm.css" />
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/testimonial.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/footer.css" /> -->
+    <link rel="stylesheet" href="./index.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body>
     <header id="home">
@@ -22,11 +23,11 @@
         <div class="logo"></div>
         <div class="center links">
           <div class="nav-links">
-            <span><a href="#">Home</a></span>
-            <span><a href="#">Why Medibuzz</a></span>
-            <span><a href="#">About Us</a></span>
-            <span><a href="#">Locate Us</a></span>
-            <span><a href="#">Testimonials</a></span>
+            <span><a href="#home">Home</a></span>
+            <span><a href="#wmi">Why Medibuzz</a></span>
+            <span><a href="#about">About Us</a></span>
+            <span><a href="#locate">Locate Us</a></span>
+            <span><a href="#testimonial">Testimonials</a></span>
           </div>
           <div class="phoneNumber">
             <a href="tel:+916353204657"
@@ -41,42 +42,34 @@
           </div>
         </div>
       </nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-7 col-sm-7 col-lg-7 text-container">
-              <div>
-                <p class="title-text">
-                  Your <span style="font-weight: 600; color: #d33e27">Health</span>,
-                  Our <span style="font-weight: 600; color: #d33e27">Priority</span>
-                </p>
-                <p class="title-desc">
-                  Enjoy Flat
-                  <span class="title-color">20% off</span> on
-                  <span class="title-color">Medicines</span>
-                  and
-                  <span class="title-color">Free</span>
-                  Delivery
-               </p>
-              </div>
-              <button class="btn prc-btn">
-                <img src="./assets/upload-icn.svg" alt="upload">
-                Upload Precription
-              </button>
-              <!-- <div class="upload-btn">
-                <a href="https://wa.me/919016754456/?text=Hello" target="_blank" class="up-btn-link center">
-                  <span class="upload-icn"></span>
-                  <span>Upload Precription</span>
-                </a>
-              </div> -->
+      <div class="header--left">
+        <div class="text-container">
+          <div>
+            <p class="title-text">
+              Your <span style="font-weight: 600; color: #d33e27">Health</span>,
+              Our <span style="font-weight: 600; color: #d33e27">Priority</span>
+            </p>
+            <p class="title-desc">
+              <br />Enjoy Flat
+              <span style="color: #8fc513; font-weight: 600">20% off</span> on
+              <span style="color: #8fc513; font-weight: 600">Medicines</span>
+              and
+              <span style="color: #8fc513; font-weight: 600">Free</span>
+              Delivery
+            </p>
           </div>
-          <div class="col-md-5 col-sm-5 col-lg-5 header-right">
+          <div class="upload-btn">
+            <a href="https://wa.me/919016754456/?text=Hello" target="_blank" class="up-btn-link center">
+              <span class="upload-icn"></span>
+              <span>Upload Precription</span>
+            </a>
           </div>
         </div>
         <div class="scroll-container">
           <div class="scroll-btn"></div>
         </div>
       </div>
-      <!-- <div class="header--right">
+      <div class="header--right">
         <span class="c1--wrapper">
           <span class="circle c1"></span>
           <span class="img-1--wrapper">
@@ -92,11 +85,11 @@
             <span class="circle c2"></span>
           </span>
         </span>
-      </div> -->
+      </div>
     </header>
 
     <!-- Why Medibuzz -->
-    <section class="wm">
+    <section class="wm" id="wmi">
       <div class="section-title">
         <p class="section-title-text">Why Medibuzz</p>
       </div>
@@ -148,103 +141,106 @@
     </section>
 
     <!-- About Us -->
-    <section>
+    <section id="about">
       <div class="section-title">
         <p class="section-title-text">About Us</p>
       </div>
       <div class="section-content-container">
         <div class="content-container">
-          <div class="about-img-container">
-            <div class="img-content"></div>
+          <div class="content-direction">
+            <div class="about-img-container">
+              <div class="img-content" blue></div>
+            </div>
+            <div class="about-content-container">
+              <p class="about-desc-title">
+                Our Community: Serving
+                <span class="about-desc-title-text-style">Locally</span>,
+                Impacting
+                <span class="about-desc-title-text-style">Globally</span>"
+              </p>
+              <p class="about-desc-text indent">
+                Medibuzz is a part of the Mayur group of companies with over 30
+                years of experience in the pharma market. We have an established
+                pharmaceutical company, chain of medical stores, and the
+                distribution network of more than 100 multinational companies. To
+                put our expertise to best use, we are now entering the Organized
+                pharmacy retail chain business to help small-scale stores avail
+                genuine medicines access, make good profit and run their retail
+                chains efficiently.
+              </p>
+              <p class="about-desc-text">
+                Medibuzz was found with a simple vision to help
+                entrepreneurs/investors across the globe to make informed
+                decisions through insightful guidelines that we provide and the
+                industry experience we possess in the pharmaceutical industry in
+                Indian Pharmaceutical retail chain. Our proven systems and
+                services provide our clients with all the information about the
+                setup, execution, and performance of their establishment.
+              </p>
+            </div>
           </div>
-          <div class="about-content-container">
-            <p class="about-desc-title">
-              Our Community: Serving
-              <span class="about-desc-title-text-style">Locally</span>,
-              Impacting
-              <span class="about-desc-title-text-style">Globally</span>"
-            </p>
-            <p class="about-desc-text indent">
-              Medibuzz is a part of the Mayur group of companies with over 30
-              years of experience in the pharma market. We have an established
-              pharmaceutical company, chain of medical stores, and the
-              distribution network of more than 100 multinational companies. To
-              put our expertise to best use, we are now entering the Organized
-              pharmacy retail chain business to help small-scale stores avail
-              genuine medicines access, make good profit and run their retail
-              chains efficiently.
-            </p>
-            <p class="about-desc-text">
-              Medibuzz was found with a simple vision to help
-              entrepreneurs/investors across the globe to make informed
-              decisions through insightful guidelines that we provide and the
-              industry experience we possess in the pharmaceutical industry in
-              Indian Pharmaceutical retail chain. Our proven systems and
-              services provide our clients with all the information about the
-              setup, execution, and performance of their establishment.
-            </p>
           </div>
-        </div>
       </div>
     </section>
 
     <!-- Testimonials -->
-    <div class="section-container">
-      <section>
+      <section id="testimonial">
         <div class="section-title">
           <p class="section-title-text">Testimonials</p>
         </div>
         <div class="section-content-container">
-          <div class="content-box" style="padding: 20px 20px 30px;">
-            <div class="center">
-              <div class="t-img t-i1"></div>
+          <div class="content-container">
+            <div class="content-box" style="padding: 20px 20px 30px;">
+              <div class="center">
+                <div class="t-img t-i1"></div>
+              </div>
+              <div class="desc-box desc-content desc-padding">
+                I am a Heart disease patient. I appreciate the management of
+                medibuzz and the service it provides.
+              </div>
+              <p class="t-desc-name">-Prabhashankar Sharma</p>
             </div>
-            <div class="desc-box desc-content desc-padding">
-              I am a Heart disease patient. I appreciate the management of
-              medibuzz and the service it provides.
+            <div class="content-box" style="padding: 20px 20px 30px;;">
+              <div class="center">
+                <div class="t-img t-i2"></div>
+              </div>
+              <div
+                class="desc-box desc-content desc-padding"
+              >
+                I always take medicines from medibuzz because it offers the best
+                discount comparatively from other stores.
+              </div>
+              <p class="t-desc-name">-Kartik Patel</p>
             </div>
-            <p class="t-desc-name">-Prabhashankar Sharma</p>
+            <div class="content-box" style="padding: 20px 20px 30px">
+              <div class="center">
+                <div class="t-img t-i3"></div>
+              </div>
+              <div
+                class="desc-box desc-content desc-padding" >
+                It is the best store for ordering medicines from home with best
+                discount offers. Staff is co-operative.
+              </div>
+              <p class="t-desc-name">-Vishal Rana</p>
+            </div>
+            <div class="content-box" style="padding: 20px 20px 30px">
+              <div class="center">
+                <div class="t-img t-i4"></div>
+              </div>
+              <div
+                class="desc-box desc-content desc-padding"
+              >
+                I am 71 years old citizen. For me Medibuzz offers the best service
+                of Home Delivery.
+              </div>
+              <p class="t-desc-name">-Brijesh Patel</p>
+            </div>
           </div>
-          <div class="content-box" style="padding: 20px 20px 30px;;">
-            <div class="center">
-              <div class="t-img t-i2"></div>
-            </div>
-            <div
-              class="desc-box desc-content desc-padding"
-            >
-              I always take medicines from medibuzz because it offers the best
-              discount comparatively from other stores.
-            </div>
-            <p class="t-desc-name">-Kartik Patel</p>
           </div>
-          <div class="content-box" style="padding: 20px 20px 30px">
-            <div class="center">
-              <div class="t-img t-i3"></div>
-            </div>
-            <div
-              class="desc-box desc-content desc-padding" >
-              It is the best store for ordering medicines from home with best
-              discount offers. Staff is co-operative.
-            </div>
-            <p class="t-desc-name">-Vishal Rana</p>
-          </div>
-          <div class="content-box" style="padding: 20px 20px 30px">
-            <div class="center">
-              <div class="t-img t-i4"></div>
-            </div>
-            <div
-              class="desc-box desc-content desc-padding"
-            >
-              I am 71 years old citizen. For me Medibuzz offers the best service
-              of Home Delivery.
-            </div>
-            <p class="t-desc-name">-Brijesh Patel</p>
-          </div>
-        </div>
       </section>
 
     <!-- Locate Us -->
-      <section>
+      <section id="locate">
         <div class="section-title">
           <p class="section-title-text">Locate Us</p>
         </div>
@@ -256,7 +252,7 @@
       </section>
 
     <!-- Footer -->
-     <footer>
+     <footer id="footer">
       <div class="footer-container">
         <hr />
       <div class="footer-content">
@@ -264,11 +260,11 @@
         <div class="footer-content-container center">
           <div class="footer-links-container" style="color: #1C2B5E;">
             <h3 style="color: black;">sitemap</h3>
-            <span class="footer-link">>Home</span>
-            <span class="footer-link">>Why Medibuzz</span>
-            <span class="footer-link">>About Us</span>
-            <span class="footer-link">>Testimonials</span>
-            <span>>Locate Us</span>
+            <a href="#home"><span class="footer-link">>Home</span></a>
+            <a href="#wmi"><span class="footer-link">>Why Medibuzz</span></a>
+            <a href="#about"><span class="footer-link">>About Us</span></a>
+            <a href="#testimonial"><span class="footer-link">>Testimonials</span></a>
+            <a href="#locate"><span>>Locate Us</span></a>
             <span>>Privarcy and Policy</span>
           </div>
         </div>
