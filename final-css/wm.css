@@ -67,11 +67,29 @@
     }
     .wmi-1 {
         background-image: url(../assets/wmi-sd-1.svg);
+        background-size: 115% 130%;
+    }
+    .wmi-2 {
+        background-image: url(../assets/wmi-sd-2.svg);
+        background-size: 115% 130%;
+    }
+    .wmi-3 {
+        background-image: url(../assets/wmi-sd-3.svg);
+        background-size: 115% 130%;
     }
 }
 @media screen and (max-width: 400px) {
     .content-box {
-        height: 75%;
-        min-width: 65%;
+        height: 70%;
+        min-width: 68%;
+    }
+    .wmi-1 {
+        background-size: 115% 130%;
+    }
+    .wmi-2 {
+        background-size: 115% 130%;
+    }
+    .wmi-3 {
+        background-size: 115% 130%;
     }
 }

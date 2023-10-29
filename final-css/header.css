@@ -120,14 +120,16 @@ i {
 .upload-icn {
     width: 20px;
     height: 20px;
-    background-image: url(../assets/upload-icn.svg);
+    background-image: url(../assets/whatsapp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 16px;
 }
 .up-btn-link {
     width: 100%;
     height: 100%;
     color: white;
     display: flex;
-    justify-content: space-evenly;
 }
 .scroll-container {
     width: 6%;

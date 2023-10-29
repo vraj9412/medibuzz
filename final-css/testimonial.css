@@ -67,18 +67,22 @@
 .t-i1 {
     background-image: url(../assets/testi1.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .t-i2 {
     background-image: url(../assets/testi2.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .t-i3 {
     background-image: url(../assets/testi3.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .t-i4 {
     background-image: url(../assets/testi4.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 @media  screen and (max-width: 480px) {
     .t-content-container {
@@ -96,6 +100,6 @@
 }
 @media screen and (max-width: 400px) {
     .t-content-box {
-        height: 72%;
+        height: 60%;
     }
 }
