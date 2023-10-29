@@ -114,6 +114,9 @@ i {
     position: absolute;
     bottom: -15%;
 }
+.up-btn-link:hover {
+    color: white;
+}
 .upload-icn {
     width: 20px;
     height: 20px;

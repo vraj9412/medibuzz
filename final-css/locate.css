@@ -1,0 +1,27 @@
+/* Locate Us */
+.locate-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.loc-row {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.loc-block {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(161, 205, 58, 0.09) 0%, rgba(161, 205, 58, 0.09) 100%);
+}
+.loc-block:hover {
+    background-color: #752A84;
+    color: white;
+}

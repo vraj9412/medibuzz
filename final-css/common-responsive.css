@@ -21,11 +21,14 @@
         justify-content: flex-start;
         width: 100%;
     }
-    .content-box, .t-content-box {
-        min-width: 80%;
+    .content-box {
+        min-width: 60%;
+        margin: 5%;
+        height: 62%;
     }
     .desc-title {
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: bolder;
     }
     .desc-content {
         font-size: 10px;

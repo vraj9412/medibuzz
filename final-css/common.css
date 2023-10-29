@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: Poppins;
 }
-
+body {
+    overflow-x: hidden;
+}
 /* common */
 ::-webkit-scrollbar {
     display: none;
@@ -32,12 +34,23 @@ a {
     color: #1C2B5E;
     display: flex;
 }
+a:hover {
+    color: #752A84;
+}
+a:active {
+    color: #752A84;
+    text-decoration: underline;
+}
 b {
     opacity: 0.7;
     color: black;
 }
-.ft-row .a {
+.ft-row a {
     width: 100%;
+    height: 100%;
+}
+.loc-row a {
+    width: 30%;
     height: 100%;
 }
 .ft-row a div {
@@ -84,19 +97,12 @@ section {
     width: 30%;
     height: 70%;
     margin: 2%;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 0px 0px 5px 0px rgba(28, 43, 94, 0.20);
     overflow: hidden;
     background-color: white;
 }
 
-#about, #testimonial {
-    padding: 5%;
-}
-
-/* Locate Us */
-.map-container {
-    width: 100%;
-    height: 80%;
+#about, #testimonial, #locate {
     padding: 5%;
 }

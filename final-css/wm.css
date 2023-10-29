@@ -16,7 +16,7 @@
 }
 .desc-title {
     color: #D33E27;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 120%; /* 27.6px */
     letter-spacing: 0.69px;
@@ -27,7 +27,7 @@
     line-height: 140%; /* 21.6px */
     letter-spacing: 0.6px;
     text-align: justify;
-    color: #777;
+    opacity: 0.8;
 }
 .img-box {
     height: 45%;
@@ -58,5 +58,20 @@
     }
     .desc-content {
         font-size: 10px;
+    }
+    .img-box {
+        height: 55%;
+    }
+    .wmi-side-bg {
+        background-position: 170% -70%;
+    }
+    .wmi-1 {
+        background-image: url(../assets/wmi-sd-1.svg);
+    }
+}
+@media screen and (max-width: 400px) {
+    .content-box {
+        height: 75%;
+        min-width: 65%;
     }
 }
